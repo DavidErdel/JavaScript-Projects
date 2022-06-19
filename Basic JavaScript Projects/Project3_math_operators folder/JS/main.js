@@ -18,7 +18,7 @@ function division_Function() { //This function uses the / operator
     document.getElementById("Division").innerHTML = division;
 }
 
-function multiple_operators() { //This function uses multiple operators //
+function multiple_operators() { //This function uses multiple operators
     var multiple_operators = (1 + 2) * 10 / 2 - 5;
     document.getElementById("Multiple Operators").innerHTML = multiple_operators;
 }
