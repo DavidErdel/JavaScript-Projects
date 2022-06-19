@@ -7,3 +7,4 @@ function My_Function_2() { //This function uses getElementById and the += operat
     var sentence = "I am learning";
     sentence += " a lot from this book!";
     document.getElementById("Concatenate").innerHTML = sentence;
+}
