@@ -21,3 +21,4 @@ var Family = "The Sierras", Dad = "Manuel Sr.", Mom = "Rosa Maria", //Assigns mu
  document.write(3+3) //Writes an expression
 
  window.alert("This is a window alert!"); //Creates a window alert
+
