@@ -16,9 +16,14 @@ document.write(B) //Writes the previous line on the webpage by using the variabl
 var Family = "The Sierras", Dad = "Manuel Sr.", Mom = "Rosa Maria", //Assigns multiple variables
  Daughter = "Ana", Son = "Manuel Jr.";
 
- document.write(Son) //Writes one of the mutiple variables assigned
+document.write(Son) //Writes one of the mutiple variables assigned
 
- document.write(3+3) //Writes an expression
+document.write(3+3) //Writes an expression
 
- window.alert("This is a window alert!"); //Creates a window alert
+window.alert("This is a window alert!"); //Creates a window alert
 
+var Sent1 = "This is the beginning of the string"
+
+var Sent2 = " and this is the end of the string"
+
+document.write(Sent1 + Sent2)
