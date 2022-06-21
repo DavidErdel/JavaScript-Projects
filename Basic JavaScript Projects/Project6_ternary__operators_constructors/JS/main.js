@@ -46,10 +46,10 @@ document.write(x);
 
 function count_Function() { //A nested function
     document.getElementById("Nested_Function").innerHTML = Count();
-        function Count() {
-            var Starting_point = 10;
-            function Plus_one() {Starting_point += 1;}
-            Plus_one();
-            return Starting_point;
-        }
+    function Count() {
+        var Starting_point = 10;
+        function Plus_one() {Starting_point += 1;}
+        Plus_one();
+        return Starting_point;
+    }
 }
