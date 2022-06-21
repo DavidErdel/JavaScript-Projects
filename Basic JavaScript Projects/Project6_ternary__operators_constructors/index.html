@@ -5,9 +5,24 @@
         <script src="JS/main.js"></script>
     </head>
     <body>
-        <p>Riders must be at least 52 centimeters tall to ride.</p>
-        <input id="Height" value="52" />
-        <button onclick="Ride_Function()">Click here</button>
+        <p>Riders must be at least 52 centimeters tall to ride. Enter your height below.</p>
+            <input id="Height" value="" />
+            <button onclick="Ride_Function()">Click here</button>
         <p id="Ride"></p>
+
+        <p>Citizens must be at least 18 years old to vote. Enter your age below.</p>
+            <input id="Age" value="" />
+            <button onclick="Vote_Function()">Click here</button>
+        <p id="Vote"></p>
+        
+        <p>What does Erik drive?</p>
+            <button onclick="myFunction()">Click here to find out...</button>
+        <p id="New_and_This"></p>
+
+        <p>What are some facts about Colombia?</p>
+            <button onclick="myFunction_2()">Click here to find out...</button>
+        <p id="Colombia"></p>
+
+        <p id="Nested_Function" onclick="count_Function">What's 10 plus 1?</p>
     </body>
 </html>
