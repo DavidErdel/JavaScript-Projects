@@ -46,3 +46,14 @@ function let_function() { //Uses the let keyword
     let Z = 2343;
     document.getElementById("Let").innerHTML = (Z);
 }
+
+let car = { //An object that uses the let keyword
+    make: "Dodge ",
+    model: "Viper ",
+    year: "2021 ",
+    color: "red ",
+    description : function() {
+        return "The car is a " + this.year + this.color + this.make + this.model;
+        }
+    };
+document.getElementById("Car_Object").innerHTML = car.description();
